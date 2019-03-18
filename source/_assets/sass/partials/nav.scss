@@ -1,0 +1,15 @@
+// Navigation styling
+nav {
+  .link {
+    color: $color-body;
+
+    &:hover {
+      color: $color-hover;
+    }
+  }
+
+  #brand-logo {
+    font-size: 2em;
+    text-transform: capitalize;
+  }
+}
